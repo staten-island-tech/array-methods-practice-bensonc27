@@ -1,23 +1,3 @@
-// Assignment 1
-//Part 1
-const students = [
-  { name: "Alice", Age: 25, Grade: 85 },
-  { name: "Alex", Age: 22, Grade: 90 },
-  { name: "Charlie", Age: 21, Grade: 78 },
-  { name: "Diana", Age: 23, Grade: 95 },
-];
-students.forEach((student) => console.log(student.name));
-
-//Part 2
-const topStudents = students.filter((student) => student.Grade > 80);
-
-const youngStudents = students.filter((student) => student.Age <= 21);
-
-//Part 3
-console.log(topStudents);
-console.log(youngStudents);
-
-//Asignment 2
 const products = [
   { name: "Laptop", price: 1200, category: "Electronics", rating: 4.5 },
   { name: "Phone", price: 800, category: "Electronics", rating: 4.7 },
