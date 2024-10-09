@@ -33,3 +33,14 @@ products.forEach((product) => console.log(product.name, product.price));
 
 //Part 2
 products.forEach((product) => console.log(product.name, product.price * 1.1));
+
+//Part 3
+const categories = [];
+products.forEach((product) => {
+  if (!categories.includes(product.category)) {
+    categories.push(product.category);
+  }
+});
+console.log("Unique Categories:", categories);
+
+//Part 4
